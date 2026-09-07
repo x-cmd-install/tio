@@ -5,13 +5,13 @@ about:
   head: 6fb3a64
   archived: false
   latestVersion: "v3.9"
-  collectedAt: 2026-09-07T05:26:14Z
+  collectedAt: 2026-09-07T19:03:58Z
 timeline:
   created: 2014-09-27
   lastCommit: 2026-01-22
   lastRelease: 2025-04-13
 popularity:
-  star: 3154
+  star: 3156
   watcher: 40
   fork: 212
   release: 76
@@ -80,7 +80,7 @@ total:
   commit: 1258
 ---
 path: /home/runner/.x-repo/github.com/tio/tio
-collectedAt: 2026-09-07T05:26:17Z
+collectedAt: 2026-09-07T19:04:00Z
 loc:
   C:
     code: 6598
@@ -232,7 +232,7 @@ checks:
       - 'Warn: 2 commits out of 13 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:26:17+00:00
+  collectedAt: 2026-09-07T19:04:00+00:00
   platform:
     darwin/arm64:
       name:  null
