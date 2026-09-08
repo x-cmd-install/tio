@@ -5,7 +5,7 @@ about:
   head: 6fb3a64
   archived: false
   latestVersion: "v3.9"
-  collectedAt: 2026-09-08T02:41:48Z
+  collectedAt: 2026-09-08T05:14:14Z
 timeline:
   created: 2014-09-27
   lastCommit: 2026-01-22
@@ -80,7 +80,7 @@ total:
   commit: 1258
 ---
 path: /home/runner/.x-repo/github.com/tio/tio
-collectedAt: 2026-09-08T02:41:50Z
+collectedAt: 2026-09-08T05:14:16Z
 loc:
   C:
     code: 6598
