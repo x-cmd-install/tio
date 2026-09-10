@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3460500,
       "digest": null,
-      "download_count": 16831,
+      "download_count": 16837,
       "created_at": "2025-04-13T11:33:29Z",
       "updated_at": "2025-04-13T11:33:31Z",
       "browser_download_url": "https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz"
