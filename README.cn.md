@@ -4,42 +4,13 @@
 
 A serial device I/O tool
 
-![tio](https://repo.x-cmd.io/tio.svg)
+![tio](https://repo.x-cmd.io/tio.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install tio
 ```
-
-## 源代码
-
-- **上游仓库**: <https://github.com/tio/tio>
-- **官网**: <https://tio.github.io>
-- **许可证**: NOASSERTION
-
-## 发布
-
-- **最新版本**: `v3.9` (2025-04-13)
-- **最近提交**: 2026-01-22
-- **Release 含资产**: 3 个
-- **发布时间**: 2025-04-13T11:33:52Z
-
-## 流行度
-
-- **Star**: 3,158 · **Fork**: 213 · **开放 issue**: 216 · **贡献者**: 60
-
-## 累计统计
-
-- **发布数**: 76 · **已合并 PR**: 128 · **开放 PR**: 13 · **已关闭 issue**: 176 · **开放 issue**: 40 · **提交数**: 1258
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 4 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 0 | 1 | 13 | 4 | 17 | 1 |
 
 ## 代码规模
 
@@ -63,6 +34,63 @@ x install tio
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Code-Review** (4/10) — Found 12/29 approved changesets -- score normalized to 4
 
+## 源代码
+
+- **上游仓库**: <https://github.com/tio/tio>
+- **官网**: <https://tio.github.io>
+- **许可证**: NOASSERTION
+
+## 发布
+
+- **最新版本**: `v3.9` (2025-04-13)
+- **最近提交**: 2026-01-22
+- **Release 含资产**: 3 个
+
+## 流行度
+
+- **Star**: 3,158 · **Fork**: 213 · **开放 issue**: 216 · **贡献者**: 60
+
+## 累计统计
+
+- **发布数**: 76 · **已合并 PR**: 128 · **开放 PR**: 13 · **已关闭 issue**: 176 · **开放 issue**: 40 · **提交数**: 1258
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 4 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 4 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 5 | 0 | 2 | 0 |
+| 360d | 2025-09-15 | 0 | 1 | 13 | 4 | 17 | 1 |
+| last720d | 2024-09-20 | 2 | 19 | 13 | 23 | 36 | 56 |
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [tio-3.9.tar.xz](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz) | 3.3 MiB | `other` |
+| [tio-3.9.tar.xz.asc](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz.asc) | 833 B | `other` |
+| [tio-3.9.tar.xz.sha256sum](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz.sha256sum) | 81 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/tio) 上共有 **112** 个发行版报告此项目。**59** 个 ✅ 已是最新上游版本，**47** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.9` | ✅ latest |
+| Debian 14 | `3.9` | ✅ latest |
+| Debian 13 | `3.9` | ✅ latest |
+| Ubuntu 26.04 LTS | `3.9` | ✅ latest |
+| Ubuntu 24.04 LTS | `2.7` | ⚠️ outdated |
+| Homebrew | `3.9` | ✅ latest |
+| Fedora rawhide | `3.9` | ✅ latest |
+| Nix unstable | `3.9` | ✅ latest |
+| Void | `3.9` | ✅ latest |
+| Alpine edge | `3.9` | ✅ latest |
+| openSUSE Tumbleweed | `3.9` | ✅ latest |
+
 ## 改进这些数据
 
 tio 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `tio` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -72,4 +100,4 @@ tio 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:20:59Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:51:43Z._
