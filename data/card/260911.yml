@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.9"
   latestRelease: "v3.9"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:31:31Z
+  collectedAt: 2026-09-11T19:25:03Z
 timeline:
   created: 2014-09-27
   lastCommit: 2026-01-22
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-04-13
   lastPrerelease: 
 popularity:
-  star: 3159
+  star: 3160
   watcher: 40
   fork: 213
   release: 76
@@ -84,7 +84,7 @@ total:
   commit: 1258
 ---
 path: /home/runner/.x-repo/github.com/tio/tio
-collectedAt: 2026-09-11T05:31:34Z
+collectedAt: 2026-09-11T19:25:05Z
 loc:
   C:
     code: 6598
