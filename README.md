@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,163 · **Forks**: 213 · **Open issues**: 216 · **Contributors**: 60
+- **Stars**: 3,163 · **Forks**: 213 · **Open issues**: 217 · **Contributors**: 60
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 128 · **Open PRs**: 13 · **Closed issues**: 176 · **Open issues**: 40 · **Commits**: 1258
+- **Releases**: 76 · **Merged PRs**: 128 · **Open PRs**: 13 · **Closed issues**: 176 · **Open issues**: 41 · **Commits**: 1258
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 4 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 4 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 5 | 0 | 2 | 0 |
-| 360d | 2025-09-18 | 0 | 1 | 13 | 4 | 17 | 1 |
-| last720d | 2024-09-23 | 2 | 19 | 13 | 23 | 36 | 56 |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 4 | 0 | 1 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 4 | 0 | 1 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 5 | 0 | 3 | 0 |
+| 360d | 2025-09-19 | 0 | 1 | 13 | 4 | 18 | 1 |
+| last720d | 2024-09-24 | 2 | 19 | 13 | 23 | 37 | 56 |
 
 ## Release assets
 
@@ -72,24 +72,6 @@ Lowest-scoring checks:
 | [tio-3.9.tar.xz](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz) | 3.3 MiB | `other` |
 | [tio-3.9.tar.xz.asc](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz.asc) | 833 B | `other` |
 | [tio-3.9.tar.xz.sha256sum](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz.sha256sum) | 81 B | `other` |
-
-## Distribution status
-
-Reported by **112** distros on [repology.org](https://repology.org/project/tio). **59** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.9` | ✅ latest |
-| Debian 14 | `3.9` | ✅ latest |
-| Debian 13 | `3.9` | ✅ latest |
-| Ubuntu 26.04 LTS | `3.9` | ✅ latest |
-| Ubuntu 24.04 LTS | `2.7` | ⚠️ outdated |
-| Homebrew | `3.9` | ✅ latest |
-| Fedora rawhide | `3.9` | ✅ latest |
-| Nix unstable | `3.9` | ✅ latest |
-| Void | `3.9` | ✅ latest |
-| Alpine edge | `3.9` | ✅ latest |
-| openSUSE Tumbleweed | `3.9` | ✅ latest |
 
 ## Improve this data
 
@@ -100,4 +82,4 @@ Install metadata for tio lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:26:01Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:46:34Z._
