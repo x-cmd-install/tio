@@ -48,7 +48,7 @@ x install tio
 
 ## 流行度
 
-- **Star**: 3,205 · **Fork**: 215 · **开放 issue**: 218 · **贡献者**: 60
+- **Star**: 3,208 · **Fork**: 215 · **开放 issue**: 218 · **贡献者**: 60
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install tio
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-08-29 | 0 | 0 | 1 | 1 | 1 | 0 |
-| 90d | 2026-07-30 | 0 | 0 | 1 | 1 | 1 | 0 |
-| last180d | 2026-05-01 | 0 | 0 | 6 | 1 | 2 | 0 |
-| 360d | 2025-11-02 | 0 | 1 | 14 | 3 | 11 | 1 |
-| last720d | 2024-11-07 | 2 | 17 | 14 | 19 | 36 | 50 |
+| 30d | 2026-09-29 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-08-30 | 0 | 0 | 1 | 1 | 1 | 0 |
+| 90d | 2026-07-31 | 0 | 0 | 1 | 1 | 1 | 0 |
+| last180d | 2026-05-02 | 0 | 0 | 6 | 1 | 2 | 0 |
+| 360d | 2025-11-03 | 0 | 1 | 14 | 3 | 11 | 1 |
+| last720d | 2024-11-08 | 2 | 17 | 14 | 19 | 36 | 47 |
 
 ## Release 资产
 
@@ -72,24 +72,6 @@ x install tio
 | [tio-3.9.tar.xz](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz) | 3.3 MiB | `other` |
 | [tio-3.9.tar.xz.asc](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz.asc) | 833 B | `other` |
 | [tio-3.9.tar.xz.sha256sum](https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz.sha256sum) | 81 B | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/tio) 上共有 **111** 个发行版报告此项目。**60** 个 ✅ 已是最新上游版本，**45** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.9` | ✅ latest |
-| Debian 14 | `3.9` | ✅ latest |
-| Debian 13 | `3.9` | ✅ latest |
-| Ubuntu 26.04 LTS | `3.9` | ✅ latest |
-| Ubuntu 24.04 LTS | `2.7` | ⚠️ outdated |
-| Homebrew | `3.9` | ✅ latest |
-| Fedora rawhide | `3.9` | ✅ latest |
-| Nix unstable | `3.9` | ✅ latest |
-| Void | `3.9` | ✅ latest |
-| Alpine edge | `3.9` | ✅ latest |
-| openSUSE Tumbleweed | `3.9` | ✅ latest |
 
 ## 改进这些数据
 
@@ -100,4 +82,4 @@ tio 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261028.yml` · 2026-10-28T06:15:06Z._
+_数据快照: `data/card/261029.yml` · 2026-10-29T06:27:39Z._
