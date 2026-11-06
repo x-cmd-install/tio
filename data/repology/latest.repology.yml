@@ -1,86 +1,51 @@
-- repo: void_x86_64
-  subrepo: x86_64
+- repo: homebrew
   srcname: tio
-  binname: tio
-  visiblename: tio
-  version: "3.9"
-  origversion: "3.9_1"
-  status: newest
-  summary: Simple serial device I/O tool
-  maintainers:
-    - dev@0x5c.io
-  licenses:
-    - GPL-2.0-or-later
-- repo: yacp
-  srcname: tio
-  binnames:
-    - tio
   visiblename: tio
   version: "3.9"
   origversion: null
   status: newest
   summary: Simple TTY terminal I/O application
-  categories:
-    - Utils
-- repo: nix_stable_24_11
+- repo: homebrew
   srcname: tio
   visiblename: tio
-  version: "3.7"
+  version: HEAD
   origversion: null
-  status: outdated
-  summary: Serial console TTY
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_05
-  srcname: tio
-  visiblename: tio
-  version: "3.9"
-  origversion: null
-  status: newest
-  summary: Serial console TTY
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_11
-  srcname: tio
-  visiblename: tio
-  version: "3.9"
-  origversion: null
-  status: newest
-  summary: Serial console TTY
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
-- repo: ubuntu_24_04
-  subrepo: noble/universe
+  status: rolling
+  summary: Simple TTY terminal I/O application
+- repo: kali_rolling
+  subrepo: main
   srcname: tio
   binnames:
     - tio
   visiblename: tio
-  version: "2.7"
-  origversion: 2.7-1
-  status: outdated
+  version: "3.9"
+  origversion: 3.9-2
+  status: newest
   maintainers:
     - sur5r@debian.org
   categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
   srcname: tio
   binnames:
     - tio
   visiblename: tio
-  version: "3.8"
-  origversion: 3.8-1
+  version: "2.5"
+  origversion: 2.5-1
   status: outdated
   maintainers:
     - sur5r@debian.org
   categories:
-    - universe/misc
+    - misc
+- repo: haikuports_master
+  srcname: net-dialup/tio
+  visiblename: net-dialup/tio
+  version: "2.5"
+  origversion: null
+  status: outdated
+  categories:
+    - net-dialup
 - repo: alpine_3_17
   subrepo: community
   srcname: tio
@@ -550,19 +515,6 @@
     - sur5r@sur5r.net
   categories:
     - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "2.5"
-  origversion: 2.5-1
-  status: outdated
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: tio
@@ -923,41 +875,6 @@
   origversion: null
   status: newest
   summary: Simple TTY terminal I/O application
-- repo: haikuports_master
-  srcname: net-dialup/tio
-  visiblename: net-dialup/tio
-  version: "2.5"
-  origversion: null
-  status: outdated
-  categories:
-    - net-dialup
-- repo: homebrew
-  srcname: tio
-  visiblename: tio
-  version: "3.9"
-  origversion: null
-  status: newest
-  summary: Simple TTY terminal I/O application
-- repo: homebrew
-  srcname: tio
-  visiblename: tio
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Simple TTY terminal I/O application
-- repo: kali_rolling
-  subrepo: main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-2
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: net-dialup/tio
   visiblename: net-dialup/tio
@@ -1018,7 +935,7 @@
   binname: tio
   visiblename: tio
   version: "3.9"
-  origversion: 3.9-2
+  origversion: 3.9-3
   status: newest
   summary: A simple TTY terminal I/O application
   licenses:
@@ -1032,6 +949,39 @@
   summary: Serial console TTY
   maintainers:
     - yana@riseup.net
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
+  srcname: tio
+  visiblename: tio
+  version: "3.7"
+  origversion: null
+  status: outdated
+  summary: Serial console TTY
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_05
+  srcname: tio
+  visiblename: tio
+  version: "3.9"
+  origversion: null
+  status: newest
+  summary: Serial console TTY
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: tio
+  visiblename: tio
+  version: "3.9"
+  origversion: null
+  status: newest
+  summary: Serial console TTY
+  maintainers:
+    - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-or-later
 - repo: nix_stable_26_05
@@ -1376,6 +1326,32 @@
     - sur5r@sur5r.net
   categories:
     - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "2.7"
+  origversion: 2.7-1
+  status: outdated
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.8"
+  origversion: 3.8-1
+  status: outdated
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: tio
@@ -1415,3 +1391,27 @@
     - sur5r@debian.org
   categories:
     - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: tio
+  binname: tio
+  visiblename: tio
+  version: "3.9"
+  origversion: "3.9_1"
+  status: newest
+  summary: Simple serial device I/O tool
+  maintainers:
+    - dev@0x5c.io
+  licenses:
+    - GPL-2.0-or-later
+- repo: yacp
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: null
+  status: newest
+  summary: Simple TTY terminal I/O application
+  categories:
+    - Utils
