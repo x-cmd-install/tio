@@ -1,18 +1,122 @@
-- repo: homebrew
+- repo: aur
   srcname: tio
+  binname: tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-1
+  status: newest
+  summary: The simple TTY terminal I/O application
+  maintainers:
+    - nickoe@aur
+    - swiftgeek@aur
+    - jledet@aur
+    - lundmar@aur
+  licenses:
+    - GPL-2.0-or-later
+- repo: fedora_43
+  subrepo: release
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-2.fc43
+  status: newest
+  summary: Simple TTY terminal I/O application
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-3.fc44
+  status: newest
+  summary: Simple TTY terminal I/O application
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: aosc
+  srcname: app-utils/tio
+  binname: tio
   visiblename: tio
   version: "3.9"
   origversion: null
   status: newest
-  summary: Simple TTY terminal I/O application
-- repo: homebrew
+  summary: A serial device I/O tool for connecting to TTY devices
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "1.32"
+  origversion: 1.32-1
+  status: outdated
+  maintainers:
+    - sur5r@sur5r.net
+  categories:
+    - comm
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "1.32"
+  origversion: 1.32-1
+  status: outdated
+  maintainers:
+    - sur5r@sur5r.net
+  categories:
+    - comm
+- repo: nix_stable_24_11
   srcname: tio
   visiblename: tio
-  version: HEAD
+  version: "3.7"
   origversion: null
-  status: rolling
-  summary: Simple TTY terminal I/O application
-- repo: kali_rolling
+  status: outdated
+  summary: Serial console TTY
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "2.5"
+  origversion: 2.5-1
+  status: outdated
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-1
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
   subrepo: main
   srcname: tio
   binnames:
@@ -25,27 +129,6 @@
     - sur5r@debian.org
   categories:
     - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "2.5"
-  origversion: 2.5-1
-  status: outdated
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
-- repo: haikuports_master
-  srcname: net-dialup/tio
-  visiblename: net-dialup/tio
-  version: "2.5"
-  origversion: null
-  status: outdated
-  categories:
-    - net-dialup
 - repo: alpine_3_17
   subrepo: community
   srcname: tio
@@ -137,6 +220,19 @@
     - sod@sodface.com
   licenses:
     - GPL-2.0-or-later
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-1
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - comm
 - repo: alpine_3_19
   subrepo: community
   srcname: tio
@@ -413,6 +509,17 @@
     - GPL-2.0-or-later
   categories:
     - System/Kernel and hardware
+- repo: nix_stable_24_05
+  srcname: tio
+  visiblename: tio
+  version: "2.8"
+  origversion: null
+  status: outdated
+  summary: Serial console TTY
+  maintainers:
+    - yana@riseup.net
+  licenses:
+    - GPL-2.0-or-later
 - repo: altsisyphus
   srcname: tio
   binnames:
@@ -429,33 +536,6 @@
     - GPL-2.0-or-later
   categories:
     - System/Kernel and hardware
-- repo: aosc
-  srcname: app-utils/tio
-  binname: tio
-  visiblename: tio
-  version: "3.9"
-  origversion: null
-  status: newest
-  summary: A serial device I/O tool for connecting to TTY devices
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
-- repo: aur
-  srcname: tio
-  binname: tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-1
-  status: newest
-  summary: The simple TTY terminal I/O application
-  maintainers:
-    - nickoe@aur
-    - swiftgeek@aur
-    - jledet@aur
-    - lundmar@aur
-  licenses:
-    - GPL-2.0-or-later
 - repo: aur
   srcname: tio-git
   binname: tio-git
@@ -513,6 +593,19 @@
   status: outdated
   maintainers:
     - sur5r@sur5r.net
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "2.5"
+  origversion: 2.5-1
+  status: outdated
+  maintainers:
+    - sur5r@debian.org
   categories:
     - misc
 - repo: debian_12_backports
@@ -713,22 +806,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: tio
-  binnames:
-    - tio
-    - tio-debuginfo
-    - tio-debugsource
-  visiblename: tio
-  version: "2.7"
-  origversion: 2.7-2.fc40
-  status: legacy
-  summary: Simple TTY terminal I/O application
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: tio
   binnames:
@@ -739,6 +816,22 @@
   version: "3.9"
   origversion: 3.9-1.fc40
   status: newest
+  summary: Simple TTY terminal I/O application
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: tio
+  binnames:
+    - tio
+    - tio-debuginfo
+    - tio-debugsource
+  visiblename: tio
+  version: "2.7"
+  origversion: 2.7-2.fc40
+  status: legacy
   summary: Simple TTY terminal I/O application
   licenses:
     - GPL-2.0-or-later
@@ -800,34 +893,6 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-2.fc43
-  status: newest
-  summary: Simple TTY terminal I/O application
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-3.fc44
-  status: newest
-  summary: Simple TTY terminal I/O application
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: tio
@@ -875,6 +940,41 @@
   origversion: null
   status: newest
   summary: Simple TTY terminal I/O application
+- repo: haikuports_master
+  srcname: net-dialup/tio
+  visiblename: net-dialup/tio
+  version: "2.5"
+  origversion: null
+  status: outdated
+  categories:
+    - net-dialup
+- repo: homebrew
+  srcname: tio
+  visiblename: tio
+  version: "3.9"
+  origversion: null
+  status: newest
+  summary: Simple TTY terminal I/O application
+- repo: homebrew
+  srcname: tio
+  visiblename: tio
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Simple TTY terminal I/O application
+- repo: kali_rolling
+  subrepo: main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-2
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: net-dialup/tio
   visiblename: net-dialup/tio
@@ -940,28 +1040,6 @@
   summary: A simple TTY terminal I/O application
   licenses:
     - spdx:GPL-2.0-or-later
-- repo: nix_stable_24_05
-  srcname: tio
-  visiblename: tio
-  version: "2.8"
-  origversion: null
-  status: outdated
-  summary: Serial console TTY
-  maintainers:
-    - yana@riseup.net
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_24_11
-  srcname: tio
-  visiblename: tio
-  version: "3.7"
-  origversion: null
-  status: outdated
-  summary: Serial console TTY
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
 - repo: nix_stable_25_05
   srcname: tio
   visiblename: tio
@@ -1085,7 +1163,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: tio
   binnames:
     - tio
@@ -1098,7 +1176,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: tio
   binnames:
     - tio
@@ -1152,84 +1230,6 @@
   version: "3.9"
   origversion: 3.9-1
   status: newest
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "1.32"
-  origversion: 1.32-1
-  status: outdated
-  maintainers:
-    - sur5r@sur5r.net
-  categories:
-    - comm
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "1.32"
-  origversion: 1.32-1
-  status: outdated
-  maintainers:
-    - sur5r@sur5r.net
-  categories:
-    - comm
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-1
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - comm
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "2.5"
-  origversion: 2.5-1
-  status: outdated
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-1
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-2
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: tio
@@ -1380,6 +1380,19 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-2
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: tio
   binnames:
     - tio
