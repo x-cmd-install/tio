@@ -180,6 +180,19 @@
     - sod@sodface.com
   licenses:
     - GPL-2.0-or-later
+- repo: debian_14
+  subrepo: forky/main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-2
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: tio
@@ -310,19 +323,6 @@
     - sod@sodface.com
   licenses:
     - GPL-2.0-or-later
-- repo: parrot
-  subrepo: parrot/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-1
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: community
   srcname: tio
@@ -493,6 +493,13 @@
     - sur5r@debian.org
   categories:
     - misc
+- repo: homebrew
+  srcname: tio
+  visiblename: tio
+  version: "3.9"
+  origversion: null
+  status: newest
+  summary: Simple TTY terminal I/O application
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: tio
@@ -506,19 +513,6 @@
     - sur5r@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-1
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
 - repo: debian_13
   subrepo: trixie/main
   srcname: tio
@@ -527,19 +521,6 @@
   visiblename: tio
   version: "3.9"
   origversion: 3.9-1
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-2
   status: newest
   maintainers:
     - sur5r@debian.org
@@ -693,22 +674,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: tio
-  binnames:
-    - tio
-    - tio-debuginfo
-    - tio-debugsource
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-1.fc40
-  status: newest
-  summary: Simple TTY terminal I/O application
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: tio
   binnames:
@@ -719,6 +684,22 @@
   version: "2.7"
   origversion: 2.7-2.fc40
   status: legacy
+  summary: Simple TTY terminal I/O application
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: tio
+  binnames:
+    - tio
+    - tio-debuginfo
+    - tio-debugsource
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-1.fc40
+  status: newest
   summary: Simple TTY terminal I/O application
   licenses:
     - GPL-2.0-or-later
@@ -831,7 +812,7 @@
   status: newest
   summary: Simple TTY terminal I/O application
   maintainers:
-    - diizzy@freebsd.org
+    - ports@freebsd.org
   categories:
     - comms
 - repo: gentoo_ovl_guru
@@ -866,13 +847,6 @@
 - repo: homebrew
   srcname: tio
   visiblename: tio
-  version: "3.9"
-  origversion: null
-  status: newest
-  summary: Simple TTY terminal I/O application
-- repo: homebrew
-  srcname: tio
-  visiblename: tio
   version: HEAD
   origversion: null
   status: rolling
@@ -903,18 +877,6 @@
     - GPL-2+
   categories:
     - net-dialup
-- repo: pkgsrc_2026_2
-  srcname: comms/tio
-  binname: tio
-  visiblename: comms/tio
-  version: "2.6"
-  origversion: null
-  status: outdated
-  summary: Simple TTY terminal I/O application
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - comms
 - repo: liguros_develop
   srcname: net-dialup/tio
   visiblename: net-dialup/tio
@@ -1111,6 +1073,44 @@
     - sur5r@sur5r.net
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-1
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-1
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
+- repo: pkgsrc_2026_2
+  srcname: comms/tio
+  binname: tio
+  visiblename: comms/tio
+  version: "2.6"
+  origversion: null
+  status: outdated
+  summary: Simple TTY terminal I/O application
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - comms
 - repo: pkgsrc_2026_3
   srcname: comms/tio
   binname: tio
