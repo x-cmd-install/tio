@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,224 · **Forks**: 215 · **Open issues**: 218 · **Contributors**: 60
+- **Stars**: 3,224 · **Forks**: 216 · **Open issues**: 219 · **Contributors**: 60
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 128 · **Open PRs**: 14 · **Closed issues**: 177 · **Open issues**: 41 · **Commits**: 1258
+- **Releases**: 76 · **Merged PRs**: 128 · **Open PRs**: 14 · **Closed issues**: 177 · **Open issues**: 42 · **Commits**: 1258
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-16 | 0 | 0 | 1 | 0 | 1 | 0 |
-| 90d | 2026-08-17 | 0 | 0 | 1 | 1 | 1 | 0 |
-| last180d | 2026-05-19 | 0 | 0 | 5 | 1 | 1 | 0 |
-| 360d | 2025-11-20 | 0 | 1 | 13 | 3 | 11 | 1 |
-| last720d | 2024-11-25 | 2 | 17 | 14 | 19 | 36 | 47 |
+| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-17 | 0 | 0 | 1 | 0 | 2 | 0 |
+| 90d | 2026-08-18 | 0 | 0 | 1 | 1 | 2 | 0 |
+| last180d | 2026-05-20 | 0 | 0 | 5 | 1 | 2 | 0 |
+| 360d | 2025-11-21 | 0 | 1 | 13 | 3 | 11 | 1 |
+| last720d | 2024-11-26 | 2 | 17 | 14 | 19 | 37 | 47 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for tio lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:08:39Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T07:23:05Z._
