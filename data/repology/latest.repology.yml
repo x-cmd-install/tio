@@ -1,187 +1,18 @@
-- repo: alpine_3_17
-  subrepo: community
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: tio
-  binname: tio
+  binnames:
+    - tio
   visiblename: tio
-  version: "2.3"
-  origversion: 2.3-r0
+  version: "1.32"
+  origversion: 1.32-1
   status: outdated
-  summary: Simple TTY Terminal I/O Application
   maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: tio
-  binname: tio-doc
-  visiblename: tio-doc
-  version: "2.3"
-  origversion: 2.3-r0
-  status: outdated
-  summary: Simple TTY Terminal I/O Application (documentation)
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: tio
-  binname: tio-bash-completion
-  visiblename: tio-bash-completion
-  version: "2.3"
-  origversion: 2.3-r0
-  status: outdated
-  summary: Bash completions for tio
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: tio
-  binname: tio
-  visiblename: tio
-  version: "2.5"
-  origversion: 2.5-r0
-  status: outdated
-  summary: Simple TTY Terminal I/O Application
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: tio
-  binname: tio-bash-completion
-  visiblename: tio-bash-completion
-  version: "2.5"
-  origversion: 2.5-r0
-  status: outdated
-  summary: Bash completions for tio
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: tio
-  binname: tio-doc
-  visiblename: tio-doc
-  version: "2.5"
-  origversion: 2.5-r0
-  status: outdated
-  summary: Simple TTY Terminal I/O Application (documentation)
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: tio
-  binname: tio
-  visiblename: tio
-  version: "2.7"
-  origversion: 2.7-r0
-  status: outdated
-  summary: Simple TTY Terminal I/O Application
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: tio
-  binname: tio-bash-completion
-  visiblename: tio-bash-completion
-  version: "2.7"
-  origversion: 2.7-r0
-  status: outdated
-  summary: Bash completions for tio
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: tio
-  binname: tio-doc
-  visiblename: tio-doc
-  version: "2.7"
-  origversion: 2.7-r0
-  status: outdated
-  summary: Simple TTY Terminal I/O Application (documentation)
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: tio
-  binname: tio
-  visiblename: tio
-  version: "3.3"
-  origversion: 3.3-r0
-  status: outdated
-  summary: Simple TTY Terminal I/O Application
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: tio
-  binname: tio-bash-completion
-  visiblename: tio-bash-completion
-  version: "3.3"
-  origversion: 3.3-r0
-  status: outdated
-  summary: Bash completions for tio
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: tio
-  binname: tio-doc
-  visiblename: tio-doc
-  version: "3.3"
-  origversion: 3.3-r0
-  status: outdated
-  summary: Simple TTY Terminal I/O Application (documentation)
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: tio
-  binname: tio
-  visiblename: tio
-  version: "3.8"
-  origversion: 3.8-r0
-  status: outdated
-  summary: Simple TTY Terminal I/O Application
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: tio
-  binname: tio-bash-completion
-  visiblename: tio-bash-completion
-  version: "3.8"
-  origversion: 3.8-r0
-  status: outdated
-  summary: Bash completions for tio
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: debian_14
-  subrepo: forky/main
+    - sur5r@sur5r.net
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: tio
   binnames:
     - tio
@@ -193,6 +24,236 @@
     - sur5r@debian.org
   categories:
     - misc
+- repo: nix_stable_24_05
+  srcname: tio
+  visiblename: tio
+  version: "2.8"
+  origversion: null
+  status: outdated
+  summary: Serial console TTY
+  maintainers:
+    - yana@riseup.net
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
+  srcname: tio
+  visiblename: tio
+  version: "3.7"
+  origversion: null
+  status: outdated
+  summary: Serial console TTY
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "2.5"
+  origversion: 2.5-1
+  status: outdated
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-1
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
+- repo: alpine_3_18
+  subrepo: community
+  srcname: tio
+  binname: tio
+  visiblename: tio
+  version: "2.5"
+  origversion: 2.5-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: tio
+  binname: tio-bash-completion
+  visiblename: tio-bash-completion
+  version: "2.3"
+  origversion: 2.3-r0
+  status: outdated
+  summary: Bash completions for tio
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: tio
+  binname: tio
+  visiblename: tio
+  version: "2.3"
+  origversion: 2.3-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: tio
+  binname: tio-doc
+  visiblename: tio-doc
+  version: "2.3"
+  origversion: 2.3-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application (documentation)
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: tio
+  binname: tio-bash-completion
+  visiblename: tio-bash-completion
+  version: "2.5"
+  origversion: 2.5-r0
+  status: outdated
+  summary: Bash completions for tio
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: tio
+  binname: tio-doc
+  visiblename: tio-doc
+  version: "2.5"
+  origversion: 2.5-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application (documentation)
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: tio
+  binname: tio
+  visiblename: tio
+  version: "2.7"
+  origversion: 2.7-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: tio
+  binname: tio-bash-completion
+  visiblename: tio-bash-completion
+  version: "2.7"
+  origversion: 2.7-r0
+  status: outdated
+  summary: Bash completions for tio
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: tio
+  binname: tio-doc
+  visiblename: tio-doc
+  version: "2.7"
+  origversion: 2.7-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application (documentation)
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: tio
+  binname: tio
+  visiblename: tio
+  version: "3.3"
+  origversion: 3.3-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: tio
+  binname: tio-bash-completion
+  visiblename: tio-bash-completion
+  version: "3.3"
+  origversion: 3.3-r0
+  status: outdated
+  summary: Bash completions for tio
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: tio
+  binname: tio-doc
+  visiblename: tio-doc
+  version: "3.3"
+  origversion: 3.3-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application (documentation)
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: tio
+  binname: tio
+  visiblename: tio
+  version: "3.8"
+  origversion: 3.8-r0
+  status: outdated
+  summary: Simple TTY Terminal I/O Application
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: tio
+  binname: tio-bash-completion
+  visiblename: tio-bash-completion
+  version: "3.8"
+  origversion: 3.8-r0
+  status: outdated
+  summary: Bash completions for tio
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_3_21
   subrepo: community
   srcname: tio
@@ -206,6 +267,17 @@
     - sod@sodface.com
   licenses:
     - GPL-2.0-or-later
+- repo: deepin_unstable
+  subrepo: main
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "1.32"
+  origversion: 1.32-1
+  status: outdated
+  maintainers:
+    - sur5r@sur5r.net
 - repo: alpine_3_22
   subrepo: community
   srcname: tio
@@ -349,6 +421,19 @@
     - fallback-mnt-alpine@repology
   licenses:
     - GPL-2.0-or-later
+- repo: deepin_25
+  subrepo: community
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-1
+  status: newest
+  maintainers:
+    - sur5r@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: community
   srcname: tio
@@ -493,13 +578,6 @@
     - sur5r@debian.org
   categories:
     - misc
-- repo: homebrew
-  srcname: tio
-  visiblename: tio
-  version: "3.9"
-  origversion: null
-  status: newest
-  summary: Simple TTY terminal I/O application
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: tio
@@ -526,8 +604,8 @@
     - sur5r@debian.org
   categories:
     - misc
-- repo: debian_unstable
-  subrepo: sid/main
+- repo: debian_14
+  subrepo: forky/main
   srcname: tio
   binnames:
     - tio
@@ -539,45 +617,8 @@
     - sur5r@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "1.32"
-  origversion: 1.32-1
-  status: outdated
-  maintainers:
-    - sur5r@sur5r.net
-- repo: deepin_25
-  subrepo: community
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-1
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "1.32"
-  origversion: 1.32-1
-  status: outdated
-  maintainers:
-    - sur5r@sur5r.net
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: tio
   binnames:
     - tio
@@ -789,6 +830,20 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: tio
+  binnames:
+    - tio
+  visiblename: tio
+  version: "3.9"
+  origversion: 3.9-6.fc45
+  status: newest
+  summary: Simple TTY terminal I/O application
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: tio
@@ -844,6 +899,13 @@
   status: outdated
   categories:
     - net-dialup
+- repo: homebrew
+  srcname: tio
+  visiblename: tio
+  version: "3.9"
+  origversion: null
+  status: newest
+  summary: Simple TTY terminal I/O application
 - repo: homebrew
   srcname: tio
   visiblename: tio
@@ -929,28 +991,19 @@
   summary: A simple TTY terminal I/O application
   licenses:
     - spdx:GPL-2.0-or-later
-- repo: nix_stable_24_05
+- repo: raspbian_testing
+  subrepo: main
   srcname: tio
+  binnames:
+    - tio
   visiblename: tio
-  version: "2.8"
-  origversion: null
-  status: outdated
-  summary: Serial console TTY
+  version: "3.9"
+  origversion: 3.9-2
+  status: newest
   maintainers:
-    - yana@riseup.net
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_24_11
-  srcname: tio
-  visiblename: tio
-  version: "3.7"
-  origversion: null
-  status: outdated
-  summary: Serial console TTY
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
+    - sur5r@debian.org
+  categories:
+    - misc
 - repo: nix_stable_25_05
   srcname: tio
   visiblename: tio
@@ -1074,7 +1127,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: tio
   binnames:
     - tio
@@ -1087,7 +1140,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: tio
   binnames:
     - tio
@@ -1180,45 +1233,6 @@
     - sur5r@debian.org
   categories:
     - comm
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "2.5"
-  origversion: 2.5-1
-  status: outdated
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-1
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tio
-  binnames:
-    - tio
-  visiblename: tio
-  version: "3.9"
-  origversion: 3.9-2
-  status: newest
-  maintainers:
-    - sur5r@debian.org
-  categories:
-    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: tio
